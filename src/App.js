@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 import {
-    BrowserRouter as Router,
+    HashRouter as Router, 
     Routes,
     Route,
     Link,
@@ -366,7 +366,7 @@ function App() {
                 <Footer />
 
             </div>
-s
+            s
         </Router>
 
     );
